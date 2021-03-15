@@ -1,0 +1,6 @@
+sources:
+  - name: repro-mesh-prob
+    handler:
+      grpc:
+        endpoint: localhost:9090
+        useReflection: true
