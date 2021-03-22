@@ -27,6 +27,6 @@ func main() {
 	reflection.Register(grpcServer)
 
 	if err := grpcServer.Serve(lis); err != nil {
-		log.Fatalf("failed to start server", err)
+		log.Fatal("failed to start server", err)
 	}
 }
